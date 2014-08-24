@@ -1,0 +1,2 @@
+v0.1
+- Initial version. Contains artwork based on http://commons.wikimedia.org/wiki/RSS_icons#mediaviewer/File:Feed-icon.svg

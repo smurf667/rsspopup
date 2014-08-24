@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.service.rsspopup" name="RssPopup" version="0.1" provider-name="smurf667">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.feedparser" version="5.1.3" />
+	</requires>
+	<extension point="xbmc.service" library="rsspopup.py" start="[login|startup]">
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">RSS headline popup</summary>
+		<summary lang="de">RSS Schlagzeilen Popup</summary>
+		<description lang="en">Displays popups with the latest headline from an RSS feed. The popup is shown at all times, also during video playback. A custom RSS feed URL can be configured.</description>
+		<description lang="de">Zeigt die neueste Schlagzeile eines RSS Feeds an. Die Benachrichtigung kann jederzeit angezeigt werden, auch während der Videowiedergabe. Eine eigene RSS Feed URL kann konfiguriert werden.</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
+		<website>https://code.google.com/p/rsspopup/</website>
+		<email>smurf667@gmail.com</email>
+	</extension>
+</addon>
