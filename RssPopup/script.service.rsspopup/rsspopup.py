@@ -2,8 +2,6 @@ import feedparser
 import xbmc
 import xbmcaddon
 
-# TODO contains artwork based on http://commons.wikimedia.org/wiki/RSS_icons#mediaviewer/File:Feed-icon.svg
-
 rsspopup = xbmcaddon.Addon(id='script.service.rsspopup')
 icon = rsspopup.getAddonInfo('icon')
 
