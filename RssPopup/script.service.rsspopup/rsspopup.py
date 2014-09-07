@@ -28,7 +28,7 @@ while (not xbmc.abortRequested):
 				published = lastPub
 				if rsspopup.getSetting('showdesc') == "true":
 					description = data.entries[0].description.encode("utf-8","ignore");
-					showtime = 1000 * max(10, min(20, len(description.split())))
+					showtime = 1000 * max(15, min(25, len(description.split())))
 					xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(data.entries[0].title.encode("utf-8","ignore"), description, showtime, icon))
 				else:
 					text = data.entries[0].title.encode("utf-8","ignore")
